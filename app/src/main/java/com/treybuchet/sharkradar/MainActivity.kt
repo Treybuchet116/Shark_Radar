@@ -3,6 +3,7 @@ package com.treybuchet.sharkradar
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.applandeo.materialcalendarview.CalendarDay
 import com.treybuchet.sharkradar.databinding.ActivityMainBinding
 import java.util.*
 
@@ -21,7 +22,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun changeColorDate(date: Date) {
 
-    }
 }
